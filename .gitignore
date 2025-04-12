@@ -1,0 +1,67 @@
+# Composer dependencies
+/vendor/
+composer.lock
+
+# Node dependencies (if using npm/yarn for frontend)
+/node_modules/
+
+# Laravel specific
+/storage/
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+
+# Symfony specific
+/var/
+/.env.local
+.env.*.local
+
+# CodeIgniter specific
+/application/cache/
+/application/logs/
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/nbproject/
+/*.sublime-project
+/*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache
+*.cache
+
+# Build files
+/build/
+/dist/
+
+/db_data
+
+# Coverage reports
+/coverage/
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+
+# PHPStorm metadata
+/.phpstorm.meta.php/
+
+# User-specific files
+*.local
+
+# Docker files (optional)
+docker-compose.override.yml
+
